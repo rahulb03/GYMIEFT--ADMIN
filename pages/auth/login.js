@@ -3,7 +3,7 @@ import AuthLayout from "../../Layout/AuthLayout";
 import FormComponent from "../../Components/Form/Form";
 import HeadComponent from "../../Components/Head/Head";
 import { useRouter } from "next/router";
-import { BASE_URL } from "../../config/config";
+import { BASE_URL } from "../../Config/config_c";
 
 const Login = () => {
     const router = useRouter()

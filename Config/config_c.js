@@ -18,8 +18,8 @@ const backendRoutes = {
 // -----------
 
 // siteConfig/information ------------
-import { storage } from "./constant"
-import isBrowser from "./../Utils/isBrowser";
+import { storage } from "./constant_c"
+import isBrowser from "../Utils/isBrowser";
 
 const siteConfig = {
     name: 'Gymify',

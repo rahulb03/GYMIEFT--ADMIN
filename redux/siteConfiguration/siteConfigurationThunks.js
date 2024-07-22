@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
-import { backendRoutes, token } from '../../Config/config';
+import { backendRoutes, token } from '../../Config/config_c';
 // import toastComponent from '../../Components/toaster/Toaster';
 
 // siteConfiguration listing/get section ------------

@@ -3,9 +3,11 @@ import { Input, Pagination, PaginationItem, PaginationLink, Table, Image, Modal,
 
 import { useDispatch, useSelector } from 'react-redux';
 import actions from "../../redux/actions";
-import { pageLimit } from "../../config/constant";
+import { pageLimit } from "../../Config/constant_c";
 import moment from "moment/moment";
-import { SERVER_URL } from "../../config/config";
+// import { SERVER_URL } from "../../Config/config";
+// import { SERVER_URL } from "../../Config/config";
+import { SERVER_URL } from "../../Config/config_c";
 
 const TableComponent = (props = {}) => {
     

@@ -1,6 +1,7 @@
 import axios from "axios";
 import getCookie from "../CustomFunctions/GetCookie";
-import { BACKEND_API_URL, token } from "../../config/config";
+// import { BACKEND_API_URL, token } from "../../Config/config.js";
+import { BACKEND_API_URL, token } from "../../Config/config_c";
 
 // const client = axios.create({
 //   baseURL: BACKEND_API_URL,

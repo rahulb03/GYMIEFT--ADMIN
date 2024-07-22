@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { login, getProfile, updateProfile, changePassword, logout } from './authThunks';
-import { storage } from '../../config/constant';
+// import { storage } from '../../config/constant';
+import { storage } from '../../Config/constant_c';
 import isBrowser from '../../Utils/isBrowser';
 
 // const authData = localStorage?.getItem(storage?.authLogin) ? JSON.parse(localStorage?.getItem(storage?.authLogin)) : null

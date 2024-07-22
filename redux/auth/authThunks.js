@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
-import { backendRoutes } from "../../config/config";
+import { backendRoutes } from "../../Config/config_c";
 
 // function for login ------------
 export const login = createAsyncThunk('auth/login', async (obj) => {
