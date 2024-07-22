@@ -1,5 +1,5 @@
 const BASE_URL = 'http://localhost:8081/';
-const SERVER_URL = 'http://localhost:4200/';
+const SERVER_URL = 'http://77.37.47.144:4200/api/';
 const API_URL = `${SERVER_URL}api/`;
 const BACKEND_API_URL = `${API_URL}backend/`
 
